@@ -4,7 +4,7 @@
 
 A firedrake implementation of the semismooth Newton method for obstacle-type quasivariational inequalities as described in
 
-"A globalized inexact semismooth Newton method for nonsmooth fixed point equations involving variational inequalities" (2024), A. Alphonse, C. Christof, M. Hintermüller, I. P. A. Papadopoulos
+"A globalized inexact semismooth Newton method for nonsmooth fixed point equations involving variational inequalities" A. Alphonse, C. Christof, M. Hintermüller, I. P. A. Papadopoulos (2024), [arXiv](https://arxiv.org/abs/2409.19637).
 
 The implementation trick is to leverage one step of vinewtonrsls in PETSc in order to implement the active-set. This package works in parallel.
 
